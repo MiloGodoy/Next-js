@@ -1,6 +1,15 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: true,
+/*module.exports = {
+  //
+  images: {
+    domains: ['placeimg*com', 'api.lorem.space'],
+  },
 }
+*/
 
-module.exports = nextConfig
+module.exports = {
+  nextConfig: this.nextConfig,
+  images: {
+    domains: ['api.lorem.space', 'placeimag.com'],
+  },
+};
+
