@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import Link from 'next/Link';
+import NextLink from 'next/Link';
 import OrderItem from '@components/OrderItem';
 import AppContext from '../context/AppContext';
 import arrow from '@icons/flechita.svg';
